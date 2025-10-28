@@ -1,0 +1,18 @@
+{
+  "user": {
+    "id": 123,
+    "name": "Alice",
+    "address": {
+      "city": "Bengaluru",
+      "zipcode": "560001"
+    },
+    "roles": [
+      { "name": "admin" },
+      { "name": "editor" }
+    ]
+  },
+  "items": [
+    { "name": "pen", "qty": 10 },
+    { "name": "book", "qty": 2 }
+  ]
+}

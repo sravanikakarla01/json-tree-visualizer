@@ -1,37 +1,3 @@
-// import React, { useState } from 'react'
-
-// export default function JsonInput({ onGenerate, setNotice }) {
-//   const [text, setText] = useState('')
-//   const [error, setError] = useState('')
-
-//   const handleGenerate = () => {
-//     try {
-//       const parsed = JSON.parse(text)
-//       setError('')
-//       onGenerate(parsed)
-//       setNotice('JSON parsed successfully')
-//     } catch (e) {
-//       setError('Invalid JSON: ' + e.message)
-//     }
-//   }
-
-//   return (
-//     <div>
-//       <h4>JSON Input</h4>
-//       <textarea
-//         className='json-input'
-//         placeholder='Paste your JSON here'
-//         value={text}
-//         onChange={e => setText(e.target.value)}
-//       />
-//       {error && <div style={{ color: '#ffb4b4', marginTop: 8 }}>{error}</div>}
-//       <div className='footer'>
-//         <button className='btn' onClick={handleGenerate}>Visualize</button>
-//         <button className='btn secondary' onClick={() => setText('')}>Clear</button>
-//       </div>
-//     </div>
-//   )
-// }
 import React, { useState, useEffect } from 'react'
 
 export default function JsonInput({ onGenerate, setNotice }) {
